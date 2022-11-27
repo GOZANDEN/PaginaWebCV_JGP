@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color:F5EBE0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: bisque;
+}
+
+section{
+    height: 100vh;
+}
+
+section#hero{
+    background-color: FEFCF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hero h2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+section#projects{
+    background-color: FEFCF3;
+    padding-top: 100px;
+}
+
+section#projects h2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    background-color: FEFCF3;
+    text-align: center;
+    justify-content: center;
+    color: DBA39A;
+    
+
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    
+
+}
+
+.projects-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.project-detail{
+    width: 600px;
+    margin: 100px;
+    
+}
+
+.project-detail img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.project-detail h3{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-detail p{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.project-detail a {
+    margin-top: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.project-detail a button{
+    display: inline-block;
+    padding: 5px 35px;
+    margin: 3px;
+    border: 15px solid transparent;
+    border-radius: 3px;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    background: #DBA39A ;
+    color: #fff;
+}
+
+.project-detail a button:hover
+{
+    opacity: 0.5;
+    background: #e9beb8;
+}
+
+.project-detail a button [href]
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+section#contact{
+    
+    text-align: center;
+}
+
+section#contact h2{
+    padding-top: 150px;
+    background-color: FEFCF3;
+}
+
+section#contact form{
+    padding-top: 100px;
+    
+    align-items: center;
+    height: 90%;
+    background-color: FEFCF3;
+}
+
+section#contact form div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 50px;
+    
+
+}
+
+section#contact form div label{
+    margin-bottom: 10px;
+   
+}
+
+section#contact form button{
+    margin-top: 130px;
+    margin-right: 80px;
+}
+
+
