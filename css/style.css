@@ -149,10 +149,12 @@ section#contact{
 }
 
 section#contact h2{
+    border: 5px solid red;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-right: 80px;
+    
+    padding-right: 80px;
     padding-top: 150px;
     background-color: FEFCF3;
 }
