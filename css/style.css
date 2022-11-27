@@ -146,9 +146,10 @@ h2{
 
 
 section#contact{
+    
     background-color: FEFCF3;
     text-align: center;
-    
+    height: 102%;
 }
 
 section#contact h2{
@@ -193,13 +194,16 @@ section#contact form button{
 }
 
 section#contact form p{
+    
+    width: 18%;
     font-size: 1.5rem;
     position: relative;
-    bottom: -220;
+    bottom: -280;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    border: 2px solid #e9beb8;
+    border: 3px solid #e9beb8;
+    border-radius: 5px;
 }
 
 
