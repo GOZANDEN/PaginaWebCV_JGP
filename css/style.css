@@ -48,6 +48,7 @@ section#hero h2{
 section#projects{
     background-color: FEFCF3;
     padding-top: 100px;
+    
 }
 
 section#projects h2{
@@ -86,6 +87,7 @@ h2{
 }
 
 .project-detail{
+    
     width: 600px;
     margin: 100px;
     
@@ -144,18 +146,20 @@ h2{
 
 
 section#contact{
-    
+    background-color: FEFCF3;
     text-align: center;
+    
 }
 
 section#contact h2{
-    border: 5px solid red;
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+    position: relative;
+    bottom: -100;
     padding-right: 80px;
-    padding-top: 150px;
+    
     background-color: FEFCF3;
 }
 
@@ -186,6 +190,16 @@ section#contact form div label{
 section#contact form button{
     margin-top: 130px;
     margin-right: 80px;
+}
+
+section#contact form p{
+    font-size: 1.5rem;
+    position: relative;
+    bottom: -220;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid #e9beb8;
 }
 
 
